@@ -1,0 +1,45 @@
+<!DOCTYPE HTML>
+<html>
+    <head>
+        <meta charset=”utf-8”>
+        <title>My Coordinated Visualization</title>
+        <!--main stylesheet-->
+        <link rel="stylesheet" href="css/style.css" />
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+        
+    </head>		
+    <body>
+        <!--libraries-->
+        <script src="lib/d3.js"></script>
+        <script src="lib/topojson.js"></script>
+        <div class="container">
+            <h3>Average Yearly Alcohol Consumption
+                <small class="text-muted">per 21+ adult</small></h3>
+            
+            <div > 
+            <form>
+                <input type="radio" name="states" value = "spirits_gal_per" checked >
+                <label>Spirits</label>
+                <input type="radio" name="states" value = "wine_gal_per">
+                <label>Wine</label>
+                <input type="radio" name="states" value = "beer_gal_per">
+                <label>Beer</label>
+                <input type="radio" name="states" value = "total_aa_per_cap">
+                <label>Total</label>
+            </form>
+            </div>
+            
+            <div class="row">
+            <div class="col-8 mapDiv"></div>
+            <div class="col chartDiv"></div>
+            </div>
+            
+          
+            
+        </div>
+        
+        <!--link to main JavaScript file-->
+		<script src="js/main.js"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+    </body>
+</html>

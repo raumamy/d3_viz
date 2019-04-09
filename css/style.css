@@ -1,0 +1,19 @@
+.chart {
+    background-color: rgba(128,128,128,.2);
+  
+    margin: 20px 40px 0 0;
+}
+
+.bars{
+    fill: cornflowerblue;
+}
+
+.numbers {
+    fill: white;
+    font-family: sans-serif;
+    font-size: 50%;
+}
+
+.scatter{
+    background-color: beige
+}
